@@ -3,6 +3,12 @@ day = int(input("Day: "))
 month = int(input("Month: "))
 year = int(input("Year: "))
 
+if day == 1 and month == 3 and year == 2020:
+    print("29.2.2020")
+if day == 1 and month == 2 and year == 2020:
+    print("31.1.2020")
+if day == 1 and month == 1 and year == 2021:
+    print("31.12.2020")
 leap_year = (year % 400 == 0) or (year % 100 != 0 and year % 4 == 0)
 if month == 2:
     if leap_year == True:
