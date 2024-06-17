@@ -3,7 +3,7 @@ x1, y1 = int(input("Enter x1: ")), int(input("Enter y1: "))
 x2, y2 = int(input("Enter x2: ")), int(input("Enter y2: "))
 
 # Calculate the distance of point A from the origin using the formula x1^2 + y1^2
-distance_a = x1**2 + y1**2
+distance_b = x2**2 + y2**2
 
 # Calculate the distance of point B from the origin using the formula x2^2 + y2^2
 distance_b = x2**2 + y2**2
